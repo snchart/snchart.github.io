@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chatset="UTF-8">
+    <meta name="color-scheme" content="only dark">
+    <title>aufstieg docs</title>
+    <style>
+        body {
+            background-color: #1d1d1d;
+            color: #d7d3b4
+        }
+        h1 {
+            font-family: "Courier New", monospace;
+            font-size: 39px;
+        }
+        h2 {
+            font-family: "Courier New", monospace;
+            font-size: 28px;
+        }
+        h3 {
+            font-family: "Courier New", monospace;
+            font-size: 15px;
+        }
+        h4 {
+            font-family: "Courier New", monospace;
+            font-size: 15px;
+            color: #a7a4a0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Aufstieg the package manager</h1>
+    <h3>Hello, I wrote whis package when i was bored in November or December, it's still kind of unusable but it can compile downloaded source code and delete packages binaries, and now, I want to write documentation for it because I'm bored again</h2>
+    <h2>How to use it:</h2>
+    <h3>You can install packages with "aufstieg add (package name)", to check package existence, search it in /usr/ports/</h3>
+    <h3>You can remove package's binary with "aufstieg del (package name)"</h3>
+    <h2>How to make build scripts:</h2>
+    <h3>You can look to any build script as an example. Build.sh contains this:</h3><br>
+    <h4>srclink="(link example)"</h4>
+    <h4>filename="(name of package/file)"</h4>
+    <h4>buildinst() {</h4>
+    <h4 style="text-indent: 40px;">. /path/to/aufstieg/config</h4>
+    <h4 style="text-indent: 40px;">...(make instructions)</h4>
+    <h4>}</h4><br>
+    <h3>And deps.txt contains dependencies<h3>
+</body>
+</html>
